@@ -1,0 +1,12 @@
+.video-name-container{
+    background-origin: border-box;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 8px;
+    /* border: 1px solid darkkhaki;  */
+}
+#addinput{
+    cursor: pointer;
+    padding: 10px;
+} 

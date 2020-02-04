@@ -1,0 +1,13 @@
+<div class="video-name-container">
+    <div class="row">
+        <div class="col-md-1">
+                <span id="addinput">
+                        <input #ac (click)="AC(ac.checked)" type="checkbox" value="on">
+                      </span>
+        </div>
+        <div class="col-md-11" (click)="PLAYVIDEO(vn.VideoName,VideoNameList2)">
+            <h5>{{vn.VideoName}}</h5>
+            <h6>{{vn.TotalLengthoftheVideo}}</h6>
+        </div>
+    </div>
+</div>

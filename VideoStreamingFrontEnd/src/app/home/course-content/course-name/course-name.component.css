@@ -1,0 +1,9 @@
+.coure-name-container{
+    background-origin: padding-box;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,12 @@
+<div  class="coure-name-container">
+   <div (click)="isClickCourseName(vcn.CourseName)">
+        <h5 id="courseName">Content : {{vcn.CourseName}}</h5>
+        <h6>Total Videos : {{vcn.TotalVideosoftheCourse}}</h6>
+   </div>
+    
+   <div [style.display]="!isShowVideos ? 'block' : 'none'" id="video-name-container" *ngFor="let vn of VideoNameList2">
+        <app-course-videos [vn]="vn" [VideoNameList2]='VideoNameList2'></app-course-videos>
+      </div>
+      <!-- [hidden]="[{{isShowVideos}}]"    -->
+</div>
+ 
